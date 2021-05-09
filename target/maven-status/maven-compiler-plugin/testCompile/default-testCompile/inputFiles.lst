@@ -1,0 +1,10 @@
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/constants/Constants.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/helper/GoRestApiHelper.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/responseVo/CreateUserSuccessVo.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/requestVo/CreateUserVo.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/constants/ApiEndPoints.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/responseVo/Data.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/base/BaseTest.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/base/TestDataLoader.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/test/GoRestApiTest.java
+/Users/shivangimohan/eclipse-workspace/CoCoAutomation/src/test/java/com/coco/base/rest/RestAssuredExtension.java

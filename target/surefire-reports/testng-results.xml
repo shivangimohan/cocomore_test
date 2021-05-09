@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-09T14:20:31Z" name="CoCo Test" finished-at="2021-05-09T14:20:39Z" duration-ms="8209">
+    <groups>
+    </groups>
+    <test started-at="2021-05-09T14:20:31Z" name="Coco Take Home Test" finished-at="2021-05-09T14:20:39Z" duration-ms="8209">
+      <class name="com.coco.test.GoRestApiTest">
+        <test-method signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.coco.test.GoRestApiTest@1a69561c]" started-at="2021-05-09T14:20:31Z" name="createUser" data-provider="csvData" finished-at="2021-05-09T14:20:39Z" duration-ms="8192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test9@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.coco.test.GoRestApiTest -->
+    </test> <!-- Coco Take Home Test -->
+  </suite> <!-- CoCo Test -->
+</testng-results>

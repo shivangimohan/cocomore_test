@@ -1,0 +1,11 @@
+com/coco/base/TestDataLoader.class
+com/coco/constants/Constants$StatusCode.class
+com/coco/constants/ApiEndPoints.class
+com/coco/requestVo/CreateUserVo.class
+com/coco/base/rest/RestAssuredExtension.class
+com/coco/constants/Constants.class
+com/coco/helper/GoRestApiHelper.class
+com/coco/base/BaseTest.class
+com/coco/test/GoRestApiTest.class
+com/coco/responseVo/Data.class
+com/coco/responseVo/CreateUserSuccessVo.class
