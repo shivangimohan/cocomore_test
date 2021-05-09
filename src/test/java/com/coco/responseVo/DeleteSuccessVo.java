@@ -2,14 +2,14 @@ package com.coco.responseVo;
 
 import com.google.gson.annotations.SerializedName;
 
-public class CreateUserSuccessVo {
+public class DeleteSuccessVo {
 
 	@SerializedName("code")
 	private Integer code;
 	@SerializedName("meta")
 	private Object meta;
 	@SerializedName("data")
-	private UserData data;
+	private Data data;
 
 	public Integer getCode() {
 		return code;
@@ -27,11 +27,11 @@ public class CreateUserSuccessVo {
 		this.meta = meta;
 	}
 
-	public UserData getData() {
+	public Data getData() {
 		return data;
 	}
 
-	public void setData(UserData data) {
+	public void setData(Data data) {
 		this.data = data;
 	}
 

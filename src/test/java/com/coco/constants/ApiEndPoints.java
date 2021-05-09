@@ -12,7 +12,6 @@ public class ApiEndPoints {
 	public static final String CREATE_POST = "users/{ID}/posts";
 	public static final String CREATE_POST_COMMENT = "posts/{ID}/comments"; 
 	public static final String GET_USER_POSTS = "users/{ID}/posts";
-	public static final String GET_USER_POSTS_COMMENTS = "posts/{ID}/comments";
 	public static final String DELETE_USER = "/users/{ID}";
 	
 

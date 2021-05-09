@@ -1,15 +1,16 @@
 package com.coco.responseVo;
 
+import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
-public class CreateUserSuccessVo {
+public class GetUserPostsSuccessVo {
 
 	@SerializedName("code")
 	private Integer code;
 	@SerializedName("meta")
-	private Object meta;
+	private Meta meta;
 	@SerializedName("data")
-	private UserData data;
+	private List<Datum> data = null;
 
 	public Integer getCode() {
 		return code;
@@ -19,19 +20,19 @@ public class CreateUserSuccessVo {
 		this.code = code;
 	}
 
-	public Object getMeta() {
+	public Meta getMeta() {
 		return meta;
 	}
 
-	public void setMeta(Object meta) {
+	public void setMeta(Meta meta) {
 		this.meta = meta;
 	}
 
-	public UserData getData() {
+	public List<Datum> getData() {
 		return data;
 	}
 
-	public void setData(UserData data) {
+	public void setData(List<Datum> data) {
 		this.data = data;
 	}
 

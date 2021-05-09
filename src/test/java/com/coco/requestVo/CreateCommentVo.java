@@ -2,16 +2,14 @@ package com.coco.requestVo;
 
 import com.google.gson.annotations.SerializedName;
 
-public class CreateUserVo {
+public class CreateCommentVo {
 
 	@SerializedName("name")
 	private String name;
-	@SerializedName("gender")
-	private String gender;
 	@SerializedName("email")
 	private String email;
-	@SerializedName("status")
-	private String status;
+	@SerializedName("body")
+	private String body;
 
 	public String getName() {
 		return name;
@@ -19,14 +17,6 @@ public class CreateUserVo {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
 	}
 
 	public String getEmail() {
@@ -37,12 +27,12 @@ public class CreateUserVo {
 		this.email = email;
 	}
 
-	public String getStatus() {
-		return status;
+	public String getBody() {
+		return body;
 	}
 
-	public void setStatus(String status) {
-		this.status = status;
+	public void setBody(String body) {
+		this.body = body;
 	}
 
 }

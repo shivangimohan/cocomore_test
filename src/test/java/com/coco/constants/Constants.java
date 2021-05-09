@@ -12,7 +12,8 @@ public class Constants {
 	public enum StatusCode {
 		CREATED(201),
 		OK(200),
-		DELETE_SUCCESSFUL(204);
+		DELETE_SUCCESSFUL(204),
+		USER_NOT_FOUND(404);
 
 		private int statusCode;
 
